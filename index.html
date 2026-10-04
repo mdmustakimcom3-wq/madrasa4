@@ -1,0 +1,3376 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>নূরুল হুদা মাদরাসা | অনলাইন ভর্তি</title>
+
+  <meta name="description" content="নূরুল হুদা মাদরাসার অনলাইন ভর্তি আবেদন ও পেমেন্ট সেবা।">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Noto+Sans+Bengali:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- PDF Libraries -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- =========================================================
+     HEADER
+========================================================= -->
+<header class="site-header">
+  <div class="container nav-wrap">
+
+    <a href="#home" class="brand">
+      <div class="brand-logo">م</div>
+      <div>
+        <strong>নূরুল হুদা</strong>
+        <span>মাদরাসা</span>
+      </div>
+    </a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+      ☰
+    </button>
+
+    <nav class="main-nav" id="mainNav">
+      <a href="#home">হোম</a>
+      <a href="#about">আমাদের সম্পর্কে</a>
+      <a href="#programs">বিভাগ</a>
+      <a href="#teachers">শিক্ষকমণ্ডলী</a>
+      <a href="#admission">অনলাইন ভর্তি</a>
+      <a href="#payment">পেমেন্ট</a>
+      <a href="#contact">যোগাযোগ</a>
+    </nav>
+
+  </div>
+</header>
+
+
+<!-- =========================================================
+     HERO
+========================================================= -->
+<section class="hero" id="home">
+
+  <div class="hero-slider">
+
+    <div class="hero-slide active">
+      <img src="images/madrasa-1.jpg" alt="মাদরাসা">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <span class="eyebrow">WELCOME TO OUR MADRASA</span>
+        <h1>আধুনিক শিক্ষার সাথে<br><span>নৈতিক ও ধর্মীয় শিক্ষা</span></h1>
+        <p>
+          জ্ঞান, চরিত্র ও মানবিক মূল্যবোধের সমন্বয়ে একটি সুন্দর ভবিষ্যৎ গড়ার প্রত্যয়ে আমাদের পথচলা।
+        </p>
+        <div class="hero-buttons">
+          <a href="#admission" class="btn btn-primary">অনলাইনে ভর্তি আবেদন</a>
+          <a href="#about" class="btn btn-outline">আরও জানুন</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-slide">
+      <img src="images/madrasa-2.jpg" alt="শিক্ষা">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <span class="eyebrow">QUALITY EDUCATION</span>
+        <h1>শিক্ষার মান উন্নয়নে<br><span>আমরা প্রতিশ্রুতিবদ্ধ</span></h1>
+        <p>শিক্ষার্থীদের মেধা, নৈতিকতা ও দক্ষতা বিকাশে আমাদের বিশেষ গুরুত্ব।</p>
+        <div class="hero-buttons">
+          <a href="#admission" class="btn btn-primary">ভর্তি আবেদন করুন</a>
+          <a href="#programs" class="btn btn-outline">বিভাগ দেখুন</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-slide">
+      <img src="images/madrasa-3.jpg" alt="শিক্ষার্থী">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <span class="eyebrow">ONLINE ADMISSION</span>
+        <h1>ঘরে বসেই করুন<br><span>ভর্তি আবেদন</span></h1>
+        <p>সহজ কয়েকটি ধাপে আবেদন পূরণ করুন এবং আবেদনপত্র PDF হিসেবে সংরক্ষণ করুন।</p>
+        <div class="hero-buttons">
+          <a href="#admission" class="btn btn-primary">আবেদন শুরু করুন</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <button class="slider-btn prev" id="prevSlide">‹</button>
+  <button class="slider-btn next" id="nextSlide">›</button>
+
+  <div class="slider-dots" id="sliderDots"></div>
+
+</section>
+
+
+<!-- =========================================================
+     STATS
+========================================================= -->
+<section class="stats-section">
+  <div class="container stats-grid">
+
+    <div class="stat-card">
+      <strong>১০+</strong>
+      <span>শিক্ষক</span>
+    </div>
+
+    <div class="stat-card">
+      <strong>৪+</strong>
+      <span>কর্মচারী</span>
+    </div>
+
+    <div class="stat-card">
+      <strong>৬+</strong>
+      <span>শিক্ষা বিভাগ</span>
+    </div>
+
+    <div class="stat-card">
+      <strong>২৪/৭</strong>
+      <span>অনলাইন সেবা</span>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- =========================================================
+     ABOUT
+========================================================= -->
+<section class="section" id="about">
+  <div class="container">
+
+    <div class="section-heading">
+      <span>ABOUT US</span>
+      <h2>আমাদের সম্পর্কে</h2>
+      <p>শিক্ষা ও নৈতিকতার সমন্বয়ে শিক্ষার্থীদের ভবিষ্যৎ গড়ে তোলাই আমাদের লক্ষ্য।</p>
+    </div>
+
+    <div class="about-grid">
+
+      <div class="about-image">
+        <img src="images/madrasa-4.jpg" alt="মাদরাসা">
+        <div class="experience-box">
+          <strong>শিক্ষা</strong>
+          <span>সবার জন্য</span>
+        </div>
+      </div>
+
+      <div class="about-content">
+        <h3>একটি সুন্দর শিক্ষার পরিবেশ</h3>
+        <p>
+          আমাদের মাদরাসায় শিক্ষার্থীদের একাডেমিক শিক্ষার পাশাপাশি নৈতিকতা,
+          শৃঙ্খলা, মানবিক মূল্যবোধ ও দায়িত্ববোধ গড়ে তোলার ওপর গুরুত্ব দেওয়া হয়।
+        </p>
+
+        <div class="feature-list">
+          <div>
+            <b>✓</b>
+            <span>অভিজ্ঞ শিক্ষক ও প্রশিক্ষিত কর্মী</span>
+          </div>
+
+          <div>
+            <b>✓</b>
+            <span>আধুনিক ও নিরাপদ শিক্ষার পরিবেশ</span>
+          </div>
+
+          <div>
+            <b>✓</b>
+            <span>অনলাইন ভর্তি ও পেমেন্ট সুবিধা</span>
+          </div>
+
+          <div>
+            <b>✓</b>
+            <span>শিক্ষার্থীবান্ধব কার্যক্রম</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+<!-- =========================================================
+     PROGRAMS
+========================================================= -->
+<section class="section light-section" id="programs">
+  <div class="container">
+
+    <div class="section-heading">
+      <span>PROGRAMS</span>
+      <h2>আমাদের বিভাগসমূহ</h2>
+      <p>শিক্ষার্থীদের প্রয়োজন অনুযায়ী বিভিন্ন শিক্ষা কার্যক্রম।</p>
+    </div>
+
+    <div class="program-grid">
+
+      <div class="program-card">
+        <div class="program-icon">01</div>
+        <h3>নূরানী বিভাগ</h3>
+        <p>প্রাথমিক পর্যায়ে কুরআন শিক্ষা ও মৌলিক জ্ঞান।</p>
+      </div>
+
+      <div class="program-card">
+        <div class="program-icon">02</div>
+        <h3>নাজেরা বিভাগ</h3>
+        <p>সঠিক উচ্চারণ ও নিয়মে কুরআন পাঠের শিক্ষা।</p>
+      </div>
+
+      <div class="program-card">
+        <div class="program-icon">03</div>
+        <h3>হিফজ বিভাগ</h3>
+        <p>কুরআন হিফজের জন্য নিয়মিত পাঠ ও অনুশীলন।</p>
+      </div>
+
+      <div class="program-card">
+        <div class="program-icon">04</div>
+        <h3>কিতাব বিভাগ</h3>
+        <p>উচ্চতর ধর্মীয় ও একাডেমিক শিক্ষার ব্যবস্থা।</p>
+      </div>
+
+      <div class="program-card">
+        <div class="program-icon">05</div>
+        <h3>সাধারণ শিক্ষা</h3>
+        <p>বাংলা, ইংরেজি, গণিত, বিজ্ঞান ও আইসিটি শিক্ষা।</p>
+      </div>
+
+      <div class="program-card">
+        <div class="program-icon">06</div>
+        <h3>নৈতিক শিক্ষা</h3>
+        <p>শিষ্টাচার, মানবিকতা ও সুন্দর চরিত্র গঠনের শিক্ষা।</p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+<!-- =========================================================
+     TEACHERS
+========================================================= -->
+<section class="section" id="teachers">
+  <div class="container">
+
+    <div class="section-heading">
+      <span>OUR TEACHERS</span>
+      <h2>শিক্ষকমণ্ডলী</h2>
+      <p>অভিজ্ঞ ও দায়িত্বশীল শিক্ষকদের সমন্বিত দল।</p>
+    </div>
+
+    <div class="people-grid">
+
+      <div class="person-card">
+        <img src="images/teacher-1.jpg" alt="শিক্ষক">
+        <h3>মাওলানা আব্দুল কাদের</h3>
+        <span>অধ্যক্ষ</span>
+      </div>
+
+      <div class="person-card">
+        <img src="images/teacher-2.jpg" alt="শিক্ষক">
+        <h3>মোঃ সাইফুল ইসলাম</h3>
+        <span>সিনিয়র শিক্ষক</span>
+      </div>
+
+      <div class="person-card">
+        <img src="images/teacher-3.jpg" alt="শিক্ষক">
+        <h3>মাওলানা রফিকুল ইসলাম</h3>
+        <span>হিফজ বিভাগ</span>
+      </div>
+
+      <div class="person-card">
+        <img src="images/teacher-4.jpg" alt="শিক্ষক">
+        <h3>মোঃ আব্দুর রহমান</h3>
+        <span>বাংলা</span>
+      </div>
+
+      <div class="person-card">
+        <img src="images/teacher-5.jpg" alt="শিক্ষক">
+        <h3>মোঃ নাসির উদ্দিন</h3>
+        <span>ইংরেজি</span>
+      </div>
+
+      <div class="person-card">
+        <img src="images/teacher-6.jpg" alt="শিক্ষক">
+        <h3>মোঃ হাবিবুর রহমান</h3>
+        <span>গণিত</span>
+      </div>
+
+      <div class="person-card">
+        <img src="images/teacher-7.jpg" alt="শিক্ষক">
+        <h3>মাওলানা শরিফুল ইসলাম</h3>
+        <span>ধর্মীয় শিক্ষা</span>
+      </div>
+
+      <div class="person-card">
+        <img src="images/teacher-8.jpg" alt="শিক্ষক">
+        <h3>মোঃ কামরুল হাসান</h3>
+        <span>বিজ্ঞান</span>
+      </div>
+
+      <div class="person-card">
+        <img src="images/teacher-9.jpg" alt="শিক্ষক">
+        <h3>মোঃ মাহবুব আলম</h3>
+        <span>আইসিটি</span>
+      </div>
+
+      <div class="person-card">
+        <img src="images/teacher-10.jpg" alt="শিক্ষক">
+        <h3>মোঃ জাকির হোসেন</h3>
+        <span>সহকারী শিক্ষক</span>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+<!-- =========================================================
+     ADMISSION
+========================================================= -->
+<section class="section admission-section" id="admission">
+
+  <div class="container">
+
+    <div class="section-heading">
+      <span>ONLINE ADMISSION</span>
+      <h2>অনলাইন ভর্তি আবেদন</h2>
+      <p>নিচের ধাপগুলো সম্পন্ন করে আপনার আবেদনপত্র তৈরি করুন।</p>
+    </div>
+
+
+    <!-- STEP INDICATOR -->
+    <div class="stepper">
+
+      <div class="step active" data-step="1">
+        <div class="step-number">১</div>
+        <span>ব্যক্তিগত তথ্য</span>
+      </div>
+
+      <div class="step-line"></div>
+
+      <div class="step" data-step="2">
+        <div class="step-number">২</div>
+        <span>ঠিকানা</span>
+      </div>
+
+      <div class="step-line"></div>
+
+      <div class="step" data-step="3">
+        <div class="step-number">৩</div>
+        <span>ভর্তি তথ্য</span>
+      </div>
+
+      <div class="step-line"></div>
+
+      <div class="step" data-step="4">
+        <div class="step-number">৪</div>
+        <span>ছবি</span>
+      </div>
+
+      <div class="step-line"></div>
+
+      <div class="step" data-step="5">
+        <div class="step-number">৫</div>
+        <span>যাচাই</span>
+      </div>
+
+    </div>
+
+
+    <form id="admissionForm" novalidate>
+
+      <!-- ================================================
+           STEP 1
+      ================================================= -->
+      <div class="form-step active" data-form-step="1">
+
+        <div class="form-card">
+
+          <div class="form-card-heading">
+            <div class="heading-icon">01</div>
+            <div>
+              <h3>শিক্ষার্থীর ব্যক্তিগত তথ্য</h3>
+              <p>শিক্ষার্থীর সঠিক তথ্য প্রদান করুন।</p>
+            </div>
+          </div>
+
+          <div class="form-grid">
+
+            <div class="field full">
+              <label for="studentName">শিক্ষার্থীর পূর্ণ নাম <b>*</b></label>
+              <input type="text" id="studentName" placeholder="শিক্ষার্থীর পূর্ণ নাম">
+            </div>
+
+            <div class="field">
+              <label for="fatherName">পিতা/অভিভাবকের নাম <b>*</b></label>
+              <input type="text" id="fatherName" placeholder="পিতা/অভিভাবকের নাম">
+            </div>
+
+            <div class="field">
+              <label for="motherName">মাতার নাম <b>*</b></label>
+              <input type="text" id="motherName" placeholder="মাতার নাম">
+            </div>
+
+            <div class="field">
+              <label for="phone">মোবাইল নম্বর <b>*</b></label>
+              <input type="tel" id="phone" placeholder="01XXXXXXXXX">
+            </div>
+
+            <div class="field">
+              <label for="gender">লিঙ্গ <b>*</b></label>
+              <select id="gender">
+                <option value="">নির্বাচন করুন</option>
+                <option value="ছেলে">ছেলে</option>
+                <option value="মেয়ে">মেয়ে</option>
+              </select>
+            </div>
+
+          </div>
+
+
+          <!-- DOB -->
+          <div class="dob-box">
+
+            <label>জন্ম তারিখ <b>*</b></label>
+
+            <div class="dob-grid">
+
+              <div>
+                <select id="birthYear">
+                  <option value="">জন্ম সাল</option>
+                </select>
+              </div>
+
+              <div>
+                <select id="birthMonth">
+                  <option value="">মাস</option>
+                  <option value="01">জানুয়ারি</option>
+                  <option value="02">ফেব্রুয়ারি</option>
+                  <option value="03">মার্চ</option>
+                  <option value="04">এপ্রিল</option>
+                  <option value="05">মে</option>
+                  <option value="06">জুন</option>
+                  <option value="07">জুলাই</option>
+                  <option value="08">আগস্ট</option>
+                  <option value="09">সেপ্টেম্বর</option>
+                  <option value="10">অক্টোবর</option>
+                  <option value="11">নভেম্বর</option>
+                  <option value="12">ডিসেম্বর</option>
+                </select>
+              </div>
+
+              <div>
+                <select id="birthDay">
+                  <option value="">তারিখ</option>
+                </select>
+              </div>
+
+            </div>
+
+            <small>জন্ম সাল ২০০০ থেকে নির্বাচন করা যাবে।</small>
+
+          </div>
+
+
+          <div class="form-actions">
+            <button type="button" class="btn btn-primary next-btn" data-next="2">
+              পরবর্তী ধাপ →
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!-- ================================================
+           STEP 2
+      ================================================= -->
+      <div class="form-step" data-form-step="2">
+
+        <div class="form-card">
+
+          <div class="form-card-heading">
+            <div class="heading-icon">02</div>
+            <div>
+              <h3>ঠিকানার তথ্য</h3>
+              <p>বিভাগ নির্বাচন করলে সংশ্লিষ্ট জেলা এবং জেলা নির্বাচন করলে সংশ্লিষ্ট থানা/উপজেলা আসবে।</p>
+            </div>
+          </div>
+
+          <div class="form-grid">
+
+            <div class="field">
+              <label for="division">বিভাগ <b>*</b></label>
+              <select id="division">
+                <option value="">বিভাগ নির্বাচন করুন</option>
+              </select>
+            </div>
+
+            <div class="field">
+              <label for="district">জেলা <b>*</b></label>
+              <select id="district" disabled>
+                <option value="">আগে বিভাগ নির্বাচন করুন</option>
+              </select>
+            </div>
+
+            <div class="field">
+              <label for="upazila">থানা / উপজেলা <b>*</b></label>
+              <select id="upazila" disabled>
+                <option value="">আগে জেলা নির্বাচন করুন</option>
+              </select>
+            </div>
+
+            <div class="field full">
+              <label for="address">বিস্তারিত ঠিকানা <b>*</b></label>
+              <textarea id="address" rows="4" placeholder="গ্রাম/মহল্লা, ডাকঘর, বাড়ির ঠিকানা লিখুন"></textarea>
+            </div>
+
+          </div>
+
+          <div class="form-actions dual">
+            <button type="button" class="btn btn-light prev-btn" data-prev="1">
+              ← পূর্ববর্তী
+            </button>
+
+            <button type="button" class="btn btn-primary next-btn" data-next="3">
+              পরবর্তী ধাপ →
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!-- ================================================
+           STEP 3
+      ================================================= -->
+      <div class="form-step" data-form-step="3">
+
+        <div class="form-card">
+
+          <div class="form-card-heading">
+            <div class="heading-icon">03</div>
+            <div>
+              <h3>ভর্তি সংক্রান্ত তথ্য</h3>
+              <p>যে শ্রেণি/বিভাগে ভর্তি হতে চান সেটি নির্বাচন করুন।</p>
+            </div>
+          </div>
+
+          <div class="form-grid">
+
+            <div class="field">
+              <label for="program">ভর্তি বিভাগ <b>*</b></label>
+              <select id="program">
+                <option value="">নির্বাচন করুন</option>
+                <option>নূরানী বিভাগ</option>
+                <option>নাজেরা বিভাগ</option>
+                <option>হিফজ বিভাগ</option>
+                <option>কিতাব বিভাগ</option>
+                <option>সাধারণ শিক্ষা</option>
+                <option>নৈতিক শিক্ষা</option>
+              </select>
+            </div>
+
+            <div class="field">
+              <label for="className">যে শ্রেণিতে ভর্তি হবে <b>*</b></label>
+              <select id="className">
+                <option value="">নির্বাচন করুন</option>
+                <option>প্রথম শ্রেণি</option>
+                <option>দ্বিতীয় শ্রেণি</option>
+                <option>তৃতীয় শ্রেণি</option>
+                <option>চতুর্থ শ্রেণি</option>
+                <option>পঞ্চম শ্রেণি</option>
+                <option>ষষ্ঠ শ্রেণি</option>
+                <option>সপ্তম শ্রেণি</option>
+                <option>অষ্টম শ্রেণি</option>
+                <option>নবম শ্রেণি</option>
+                <option>দশম শ্রেণি</option>
+                <option>হিফজ</option>
+                <option>নাজেরা</option>
+                <option>নূরানী</option>
+              </select>
+            </div>
+
+            <div class="field full">
+              <label for="previousSchool">পূর্ববর্তী শিক্ষা প্রতিষ্ঠানের নাম</label>
+              <input type="text" id="previousSchool" placeholder="প্রযোজ্য হলে লিখুন">
+            </div>
+
+            <div class="field full">
+              <label for="notes">অতিরিক্ত তথ্য</label>
+              <textarea id="notes" rows="4" placeholder="প্রয়োজনীয় কোনো তথ্য থাকলে লিখুন"></textarea>
+            </div>
+
+          </div>
+
+          <div class="form-actions dual">
+            <button type="button" class="btn btn-light prev-btn" data-prev="2">
+              ← পূর্ববর্তী
+            </button>
+
+            <button type="button" class="btn btn-primary next-btn" data-next="4">
+              পরবর্তী ধাপ →
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!-- ================================================
+           STEP 4 PHOTO
+      ================================================= -->
+      <div class="form-step" data-form-step="4">
+
+        <div class="form-card">
+
+          <div class="form-card-heading">
+            <div class="heading-icon">04</div>
+            <div>
+              <h3>শিক্ষার্থীর ছবি</h3>
+              <p>আবেদনপত্রের জন্য শিক্ষার্থীর ছবি নির্বাচন করুন।</p>
+            </div>
+          </div>
+
+          <div class="photo-upload-area">
+
+            <div class="photo-preview" id="photoPreview">
+              <span>ছবি</span>
+            </div>
+
+            <div class="photo-upload-content">
+
+              <label class="upload-btn" for="photoInput">
+                📷 ছবি নির্বাচন করুন
+              </label>
+
+              <input type="file" id="photoInput" accept="image/*" hidden>
+
+              <h4>ছবির কোনো MB সীমা নেই</h4>
+
+              <p>
+                আপনার ছবির ফাইল যত বড়ই হোক, এখানে নির্দিষ্ট কোনো MB limit দেওয়া নেই।
+                আবেদনপত্রে ছবিটি স্বয়ংক্রিয়ভাবে <strong>300 × 300 px</strong> আকারে প্রস্তুত হবে।
+              </p>
+
+              <div class="photo-status" id="photoStatus">
+                এখনো কোনো ছবি নির্বাচন করা হয়নি।
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="form-actions dual">
+
+            <button type="button" class="btn btn-light prev-btn" data-prev="3">
+              ← পূর্ববর্তী
+            </button>
+
+            <button type="button" class="btn btn-primary next-btn" data-next="5">
+              তথ্য যাচাই করুন →
+            </button>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!-- ================================================
+           STEP 5 REVIEW
+      ================================================= -->
+      <div class="form-step" data-form-step="5">
+
+        <div class="form-card">
+
+          <div class="form-card-heading">
+            <div class="heading-icon">05</div>
+            <div>
+              <h3>আবেদন যাচাই</h3>
+              <p>Submit করার আগে আপনার তথ্যগুলো ভালোভাবে দেখে নিন।</p>
+            </div>
+          </div>
+
+          <div class="review-layout">
+
+            <div class="review-photo">
+              <img id="reviewPhoto" src="" alt="শিক্ষার্থীর ছবি">
+            </div>
+
+            <div class="review-info">
+
+              <div class="review-row">
+                <span>শিক্ষার্থীর নাম</span>
+                <strong id="reviewStudentName">—</strong>
+              </div>
+
+              <div class="review-row">
+                <span>পিতা/অভিভাবক</span>
+                <strong id="reviewFatherName">—</strong>
+              </div>
+
+              <div class="review-row">
+                <span>মাতার নাম</span>
+                <strong id="reviewMotherName">—</strong>
+              </div>
+
+              <div class="review-row">
+                <span>মোবাইল</span>
+                <strong id="reviewPhone">—</strong>
+              </div>
+
+              <div class="review-row">
+                <span>জন্ম তারিখ</span>
+                <strong id="reviewBirthDate">—</strong>
+              </div>
+
+              <div class="review-row">
+                <span>লিঙ্গ</span>
+                <strong id="reviewGender">—</strong>
+              </div>
+
+              <div class="review-row">
+                <span>বিভাগ</span>
+                <strong id="reviewDivision">—</strong>
+              </div>
+
+              <div class="review-row">
+                <span>জেলা</span>
+                <strong id="reviewDistrict">—</strong>
+              </div>
+
+              <div class="review-row">
+                <span>থানা/উপজেলা</span>
+                <strong id="reviewUpazila">—</strong>
+              </div>
+
+              <div class="review-row">
+                <span>ভর্তি বিভাগ</span>
+                <strong id="reviewProgram">—</strong>
+              </div>
+
+              <div class="review-row">
+                <span>শ্রেণি</span>
+                <strong id="reviewClass">—</strong>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="review-address">
+            <span>বিস্তারিত ঠিকানা</span>
+            <p id="reviewAddress">—</p>
+          </div>
+
+          <label class="agree-box">
+            <input type="checkbox" id="declaration">
+            <span>
+              আমি ঘোষণা করছি যে, উপরে প্রদত্ত তথ্য আমার জানা মতে সঠিক।
+            </span>
+          </label>
+
+          <div class="form-actions dual">
+
+            <button type="button" class="btn btn-light prev-btn" data-prev="4">
+              ← পূর্ববর্তী
+            </button>
+
+            <button type="submit" class="btn btn-success" id="submitAdmission">
+              ✓ আবেদন Submit করুন
+            </button>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </form>
+
+  </div>
+</section>
+
+
+<!-- =========================================================
+     APPLICATION RESULT
+========================================================= -->
+<section class="result-section" id="applicationResult">
+
+  <div class="container">
+
+    <div class="result-top">
+
+      <div>
+        <span class="success-label">✓ আবেদন তৈরি হয়েছে</span>
+        <h2>আপনার ভর্তি আবেদনপত্র প্রস্তুত</h2>
+        <p>
+          নিচের আবেদনপত্রটি PDF হিসেবে ডাউনলোড করে মাদরাসায় জমা দিন।
+        </p>
+      </div>
+
+      <div class="application-number-box">
+        <small>Application ID</small>
+        <strong id="applicationIdDisplay">—</strong>
+      </div>
+
+    </div>
+
+    <div class="result-actions">
+
+      <button type="button" class="btn btn-primary" id="downloadPdfBtn">
+        📄 PDF Download
+      </button>
+
+      <button type="button" class="btn btn-dark" id="printAdmissionBtn">
+        🖨 আবেদনপত্র Print
+      </button>
+
+      <button type="button" class="btn btn-light" id="newApplicationBtn">
+        নতুন আবেদন
+      </button>
+
+    </div>
+
+
+    <!-- ================================================
+         A4 APPLICATION DOCUMENT
+    ================================================= -->
+    <div id="admissionPrintArea" class="a4-paper">
+
+      <div class="paper-header">
+
+        <div class="paper-logo">م</div>
+
+        <div class="paper-title">
+          <h1>নূরুল হুদা মাদরাসা</h1>
+          <p>অনলাইন ভর্তি আবেদনপত্র</p>
+          <small>ONLINE ADMISSION APPLICATION</small>
+        </div>
+
+        <div class="paper-id">
+          <span>আবেদন নম্বর</span>
+          <strong id="paperApplicationId">—</strong>
+        </div>
+
+      </div>
+
+      <div class="paper-divider"></div>
+
+      <div class="paper-meta">
+        <div>
+          <span>আবেদনের তারিখ</span>
+          <strong id="paperSubmitDate">—</strong>
+        </div>
+
+        <div>
+          <span>আবেদনের অবস্থা</span>
+          <strong class="paper-status">অনলাইন আবেদন গ্রহণ করা হয়েছে</strong>
+        </div>
+      </div>
+
+
+      <div class="paper-student-top">
+
+        <div class="paper-section-title">
+          শিক্ষার্থীর ব্যক্তিগত তথ্য
+        </div>
+
+        <div class="paper-photo-box">
+          <img id="paperPhoto" src="" alt="শিক্ষার্থীর ছবি">
+          <small>300 × 300 px</small>
+        </div>
+
+      </div>
+
+
+      <table class="application-table">
+
+        <tr>
+          <th>শিক্ষার্থীর নাম</th>
+          <td id="paperStudentName">—</td>
+
+          <th>লিঙ্গ</th>
+          <td id="paperGender">—</td>
+        </tr>
+
+        <tr>
+          <th>পিতা/অভিভাবকের নাম</th>
+          <td id="paperFatherName">—</td>
+
+          <th>মাতার নাম</th>
+          <td id="paperMotherName">—</td>
+        </tr>
+
+        <tr>
+          <th>মোবাইল নম্বর</th>
+          <td id="paperPhone">—</td>
+
+          <th>জন্ম তারিখ</th>
+          <td id="paperBirthDate">—</td>
+        </tr>
+
+      </table>
+
+
+      <div class="paper-section-title">
+        ঠিকানার তথ্য
+      </div>
+
+      <table class="application-table">
+
+        <tr>
+          <th>বিভাগ</th>
+          <td id="paperDivision">—</td>
+
+          <th>জেলা</th>
+          <td id="paperDistrict">—</td>
+        </tr>
+
+        <tr>
+          <th>থানা / উপজেলা</th>
+          <td id="paperUpazila">—</td>
+
+          <th>বিস্তারিত ঠিকানা</th>
+          <td id="paperAddress">—</td>
+        </tr>
+
+      </table>
+
+
+      <div class="paper-section-title">
+        ভর্তি সংক্রান্ত তথ্য
+      </div>
+
+      <table class="application-table">
+
+        <tr>
+          <th>ভর্তি বিভাগ</th>
+          <td id="paperProgram">—</td>
+
+          <th>শ্রেণি</th>
+          <td id="paperClass">—</td>
+        </tr>
+
+        <tr>
+          <th>পূর্ববর্তী প্রতিষ্ঠান</th>
+          <td colspan="3" id="paperPreviousSchool">—</td>
+        </tr>
+
+        <tr>
+          <th>অতিরিক্ত তথ্য</th>
+          <td colspan="3" id="paperNotes">—</td>
+        </tr>
+
+      </table>
+
+
+      <div class="declaration-paper">
+
+        <h3>ঘোষণা</h3>
+
+        <p>
+          আমি ঘোষণা করছি যে, এই আবেদনপত্রে প্রদত্ত সকল তথ্য আমার জানা মতে
+          সঠিক ও সত্য। প্রয়োজন হলে মাদরাসা কর্তৃপক্ষ আমার প্রদত্ত তথ্য যাচাই
+          করতে পারবে।
+        </p>
+
+      </div>
+
+
+      <div class="signature-area">
+
+        <div>
+          <span></span>
+          <strong>অভিভাবকের স্বাক্ষর</strong>
+        </div>
+
+        <div>
+          <span></span>
+          <strong>শিক্ষার্থীর স্বাক্ষর</strong>
+        </div>
+
+        <div>
+          <span></span>
+          <strong>কর্তৃপক্ষের স্বাক্ষর</strong>
+        </div>
+
+      </div>
+
+
+      <div class="paper-footer">
+        <strong>গুরুত্বপূর্ণ নির্দেশনা:</strong>
+        এই আবেদনপত্রের PDF কপি সংরক্ষণ করুন এবং প্রয়োজনীয় কাগজপত্রসহ
+        মাদরাসা কর্তৃপক্ষের কাছে জমা দিন।
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+<!-- =========================================================
+     PAYMENT
+========================================================= -->
+<section class="section light-section" id="payment">
+
+  <div class="container">
+
+    <div class="section-heading">
+      <span>PAYMENT</span>
+      <h2>ভর্তি ফি পেমেন্ট</h2>
+      <p>পেমেন্ট করার পর Transaction ID দিয়ে রসিদ তৈরি করুন।</p>
+    </div>
+
+    <div class="payment-grid">
+
+      <div class="payment-info-card">
+
+        <div class="payment-logo">৳</div>
+
+        <h3>ভর্তি ফি</h3>
+
+        <div class="fee-row">
+          <span>মূল ভর্তি ফি</span>
+          <strong>৳৫০০</strong>
+        </div>
+
+        <div class="fee-row">
+          <span>ওয়েবসাইট সার্ভিস ফি</span>
+          <strong>৳১০</strong>
+        </div>
+
+        <div class="fee-total">
+          <span>সর্বমোট</span>
+          <strong>৳৫১০</strong>
+        </div>
+
+        <div class="payment-number">
+          <small>পেমেন্ট নম্বর</small>
+          <strong>01786938377</strong>
+        </div>
+
+      </div>
+
+
+      <div class="payment-form-card">
+
+        <h3>পেমেন্ট তথ্য</h3>
+
+        <div class="form-grid">
+
+          <div class="field full">
+            <label for="paymentStudent">শিক্ষার্থীর নাম <b>*</b></label>
+            <input type="text" id="paymentStudent" placeholder="শিক্ষার্থীর নাম">
+          </div>
+
+          <div class="field">
+            <label for="paymentRoll">রোল / আবেদন নম্বর</label>
+            <input type="text" id="paymentRoll" placeholder="Application ID">
+          </div>
+
+          <div class="field">
+            <label for="paymentPhone">পেমেন্টকারীর মোবাইল</label>
+            <input type="tel" id="paymentPhone" placeholder="01XXXXXXXXX">
+          </div>
+
+          <div class="field">
+            <label for="paymentMonth">মাস</label>
+            <select id="paymentMonth">
+              <option value="">মাস নির্বাচন করুন</option>
+              <option>জানুয়ারি</option>
+              <option>ফেব্রুয়ারি</option>
+              <option>মার্চ</option>
+              <option>এপ্রিল</option>
+              <option>মে</option>
+              <option>জুন</option>
+              <option>জুলাই</option>
+              <option>আগস্ট</option>
+              <option>সেপ্টেম্বর</option>
+              <option>অক্টোবর</option>
+              <option>নভেম্বর</option>
+              <option>ডিসেম্বর</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label for="transactionId">Transaction ID <b>*</b></label>
+            <input type="text" id="transactionId" placeholder="Transaction ID">
+          </div>
+
+        </div>
+
+        <button type="button" class="btn btn-primary payment-submit" id="generateReceiptBtn">
+          🧾 রসিদ তৈরি করুন
+        </button>
+
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+<!-- =========================================================
+     RECEIPT
+========================================================= -->
+<section class="receipt-result" id="receiptResult">
+
+  <div class="container">
+
+    <div class="result-top">
+      <div>
+        <span class="success-label">✓ রসিদ তৈরি হয়েছে</span>
+        <h2>পেমেন্ট রসিদ</h2>
+        <p>এক পাতায় দুটি কপি থাকবে—মাদরাসার কপি ও শিক্ষার্থীর কপি।</p>
+      </div>
+
+      <div class="application-number-box">
+        <small>Receipt No.</small>
+        <strong id="receiptNumberDisplay">—</strong>
+      </div>
+    </div>
+
+    <div class="result-actions">
+
+      <button type="button" class="btn btn-primary" id="printReceiptBtn">
+        🖨 রসিদ Print করুন
+      </button>
+
+      <button type="button" class="btn btn-light" id="newReceiptBtn">
+        নতুন রসিদ
+      </button>
+
+    </div>
+
+
+    <div id="receiptArea" class="receipt-paper">
+
+      <!-- MADRASA COPY -->
+      <div class="receipt-copy">
+
+        <div class="receipt-head">
+
+          <div class="receipt-mini-logo">م</div>
+
+          <div>
+            <h2>নূরুল হুদা মাদরাসা</h2>
+            <p>পেমেন্ট রসিদ — মাদরাসার কপি</p>
+          </div>
+
+          <div class="receipt-no">
+            <small>Receipt No.</small>
+            <strong id="madrasaReceiptNo">—</strong>
+          </div>
+
+        </div>
+
+        <div class="receipt-status">
+          পেমেন্ট যাচাই সাপেক্ষে গ্রহণযোগ্য
+        </div>
+
+        <table class="receipt-table">
+
+          <tr>
+            <th>শিক্ষার্থীর নাম</th>
+            <td id="madrasaStudent">—</td>
+
+            <th>মাস</th>
+            <td id="madrasaMonth">—</td>
+          </tr>
+
+          <tr>
+            <th>রোল / আবেদন নম্বর</th>
+            <td id="madrasaRoll">—</td>
+
+            <th>Transaction ID</th>
+            <td id="madrasaTransaction">—</td>
+          </tr>
+
+          <tr>
+            <th>পেমেন্টকারীর মোবাইল</th>
+            <td id="madrasaPayerPhone">—</td>
+
+            <th>তারিখ</th>
+            <td id="madrasaDate">—</td>
+          </tr>
+
+        </table>
+
+        <div class="receipt-amount">
+          <div>
+            <span>মূল ভর্তি ফি</span>
+            <strong>৳ ৫০০</strong>
+          </div>
+
+          <div>
+            <span>সার্ভিস ফি</span>
+            <strong>৳ ১০</strong>
+          </div>
+
+          <div class="total">
+            <span>সর্বমোট</span>
+            <strong>৳ ৫১০</strong>
+          </div>
+        </div>
+
+        <div class="receipt-signatures">
+          <div>
+            <span></span>
+            কর্তৃপক্ষের স্বাক্ষর
+          </div>
+
+          <div>
+            <span></span>
+            পেমেন্টকারীর স্বাক্ষর
+          </div>
+        </div>
+
+        <div class="receipt-footer">
+          Payment Number: <strong>01786938377</strong>
+        </div>
+
+      </div>
+
+
+      <!-- TEAR LINE -->
+      <div class="tear-line">
+        ✂ ✂ ✂ &nbsp; এখান থেকে কেটে আলাদা করুন &nbsp; ✂ ✂ ✂
+      </div>
+
+
+      <!-- STUDENT COPY -->
+      <div class="receipt-copy">
+
+        <div class="receipt-head">
+
+          <div class="receipt-mini-logo">م</div>
+
+          <div>
+            <h2>নূরুল হুদা মাদরাসা</h2>
+            <p>পেমেন্ট রসিদ — শিক্ষার্থীর কপি</p>
+          </div>
+
+          <div class="receipt-no">
+            <small>Receipt No.</small>
+            <strong id="studentReceiptNo">—</strong>
+          </div>
+
+        </div>
+
+        <div class="receipt-status">
+          পেমেন্ট যাচাই সাপেক্ষে গ্রহণযোগ্য
+        </div>
+
+        <table class="receipt-table">
+
+          <tr>
+            <th>শিক্ষার্থীর নাম</th>
+            <td id="studentCopyName">—</td>
+
+            <th>মাস</th>
+            <td id="studentCopyMonth">—</td>
+          </tr>
+
+          <tr>
+            <th>রোল / আবেদন নম্বর</th>
+            <td id="studentCopyRoll">—</td>
+
+            <th>Transaction ID</th>
+            <td id="studentCopyTransaction">—</td>
+          </tr>
+
+          <tr>
+            <th>পেমেন্টকারীর মোবাইল</th>
+            <td id="studentCopyPhone">—</td>
+
+            <th>তারিখ</th>
+            <td id="studentCopyDate">—</td>
+          </tr>
+
+        </table>
+
+        <div class="receipt-amount">
+
+          <div>
+            <span>মূল ভর্তি ফি</span>
+            <strong>৳ ৫০০</strong>
+          </div>
+
+          <div>
+            <span>সার্ভিস ফি</span>
+            <strong>৳ ১০</strong>
+          </div>
+
+          <div class="total">
+            <span>সর্বমোট</span>
+            <strong>৳ ৫১০</strong>
+          </div>
+
+        </div>
+
+        <div class="receipt-note">
+          এই রসিদটি শিক্ষার্থী নিজের কাছে সংরক্ষণ করবেন।
+        </div>
+
+        <div class="receipt-footer">
+          Payment Number: <strong>01786938377</strong>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+<!-- =========================================================
+     CONTACT
+========================================================= -->
+<section class="section contact-section" id="contact">
+
+  <div class="container">
+
+    <div class="section-heading">
+      <span>CONTACT US</span>
+      <h2>যোগাযোগ</h2>
+      <p>ভর্তি বা পেমেন্ট সংক্রান্ত প্রয়োজনে যোগাযোগ করুন।</p>
+    </div>
+
+    <div class="contact-grid">
+
+      <div class="contact-card">
+        <div class="contact-icon">☎</div>
+        <span>যোগাযোগ</span>
+        <a href="tel:01862269184">01862269184</a>
+      </div>
+
+      <div class="contact-card">
+        <div class="contact-icon">৳</div>
+        <span>পেমেন্ট</span>
+        <a href="tel:01786938377">01786938377</a>
+      </div>
+
+      <div class="contact-card">
+        <div class="contact-icon">📍</div>
+        <span>ঠিকানা</span>
+        <strong>বাংলাদেশ</strong>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+<!-- =========================================================
+     FOOTER
+========================================================= -->
+<footer class="footer">
+
+  <div class="container footer-grid">
+
+    <div>
+      <div class="footer-brand">
+        <div class="brand-logo">م</div>
+        <div>
+          <strong>নূরুল হুদা</strong>
+          <span>মাদরাসা</span>
+        </div>
+      </div>
+
+      <p>
+        জ্ঞান, নৈতিকতা ও মানবিক মূল্যবোধের সমন্বয়ে শিক্ষার্থীদের সুন্দর ভবিষ্যৎ গড়ে তোলাই আমাদের লক্ষ্য।
+      </p>
+    </div>
+
+    <div>
+      <h3>দ্রুত লিংক</h3>
+      <a href="#home">হোম</a>
+      <a href="#about">আমাদের সম্পর্কে</a>
+      <a href="#admission">অনলাইন ভর্তি</a>
+      <a href="#payment">পেমেন্ট</a>
+    </div>
+
+    <div>
+      <h3>যোগাযোগ</h3>
+      <a href="tel:01862269184">01862269184</a>
+      <a href="tel:01786938377">Payment: 01786938377</a>
+    </div>
+
+  </div>
+
+  <div class="copyright">
+    © <span id="year"></span> নূরুল হুদা মাদরাসা — সর্বস্বত্ব সংরক্ষিত।
+  </div>
+
+</footer>
+
+
+<!-- =========================================================
+     TOAST
+========================================================= -->
+<div id="toast" class="toast"></div>
+
+
+<!-- =========================================================
+     JAVASCRIPT
+========================================================= -->
+<script>
+
+/* =========================================================
+   BASIC
+========================================================= */
+
+const $ = (id) => document.getElementById(id);
+
+$("year").textContent = new Date().getFullYear();
+
+
+/* =========================================================
+   MOBILE MENU
+========================================================= */
+
+$("menuToggle").addEventListener("click", () => {
+  $("mainNav").classList.toggle("open");
+});
+
+document.querySelectorAll(".main-nav a").forEach(link => {
+  link.addEventListener("click", () => {
+    $("mainNav").classList.remove("open");
+  });
+});
+
+
+/* =========================================================
+   HERO SLIDER
+========================================================= */
+
+const slides = document.querySelectorAll(".hero-slide");
+const dotsContainer = $("sliderDots");
+
+let currentSlide = 0;
+
+slides.forEach((_, index) => {
+
+  const dot = document.createElement("button");
+
+  if(index === 0) dot.classList.add("active");
+
+  dot.addEventListener("click", () => {
+    showSlide(index);
+  });
+
+  dotsContainer.appendChild(dot);
+});
+
+const dots = dotsContainer.querySelectorAll("button");
+
+function showSlide(index){
+
+  currentSlide = (index + slides.length) % slides.length;
+
+  slides.forEach(slide => slide.classList.remove("active"));
+  dots.forEach(dot => dot.classList.remove("active"));
+
+  slides[currentSlide].classList.add("active");
+  dots[currentSlide].classList.add("active");
+}
+
+$("nextSlide").addEventListener("click", () => {
+  showSlide(currentSlide + 1);
+});
+
+$("prevSlide").addEventListener("click", () => {
+  showSlide(currentSlide - 1);
+});
+
+setInterval(() => {
+  showSlide(currentSlide + 1);
+}, 5000);
+
+
+/* =========================================================
+   BANGLADESH DIVISION → DISTRICT → UPAZILA
+========================================================= */
+
+const BD_DATA = {
+
+  "ঢাকা": {
+
+    "ঢাকা": [
+      "ধামরাই",
+      "দোহার",
+      "কেরানীগঞ্জ",
+      "নবাবগঞ্জ",
+      "সাভার"
+    ],
+
+    "ফরিদপুর": [
+      "আলফাডাঙ্গা",
+      "ভাঙ্গা",
+      "বোয়ালমারী",
+      "চরভদ্রাসন",
+      "ফরিদপুর সদর",
+      "মধুখালী",
+      "নগরকান্দা",
+      "সদরপুর",
+      "সালথা"
+    ],
+
+    "গাজীপুর": [
+      "কালিয়াকৈর",
+      "কালীগঞ্জ",
+      "কাপাসিয়া",
+      "গাজীপুর সদর",
+      "শ্রীপুর"
+    ],
+
+    "গোপালগঞ্জ": [
+      "কাশিয়ানী",
+      "কোটালীপাড়া",
+      "গোপালগঞ্জ সদর",
+      "টুঙ্গিপাড়া",
+      "মুকসুদপুর"
+    ],
+
+    "কিশোরগঞ্জ": [
+      "অষ্টগ্রাম",
+      "ইটনা",
+      "করিমগঞ্জ",
+      "কটিয়াদী",
+      "কিশোরগঞ্জ সদর",
+      "কুলিয়ারচর",
+      "তাড়াইল",
+      "নিকলী",
+      "পাকুন্দিয়া",
+      "ভৈরব",
+      "হোসেনপুর",
+      "বাজিতপুর",
+      "মিঠামইন"
+    ],
+
+    "মাদারীপুর": [
+      "কালকিনি",
+      "ডাসার",
+      "মাদারীপুর সদর",
+      "রাজৈর",
+      "শিবচর"
+    ],
+
+    "মানিকগঞ্জ": [
+      "ঘিওর",
+      "দৌলতপুর",
+      "মানিকগঞ্জ সদর",
+      "সাটুরিয়া",
+      "শিবালয়",
+      "সিংগাইর",
+      "হরিরামপুর"
+    ],
+
+    "মুন্সীগঞ্জ": [
+      "গজারিয়া",
+      "লৌহজং",
+      "মুন্সীগঞ্জ সদর",
+      "শ্রীনগর",
+      "সিরাজদিখান",
+      "টঙ্গীবাড়ী"
+    ],
+
+    "নারায়ণগঞ্জ": [
+      "আড়াইহাজার",
+      "বন্দর",
+      "নারায়ণগঞ্জ সদর",
+      "রূপগঞ্জ",
+      "সোনারগাঁ"
+    ],
+
+    "নরসিংদী": [
+      "বেলাব",
+      "মনোহরদী",
+      "নরসিংদী সদর",
+      "পলাশ",
+      "রায়পুরা",
+      "শিবপুর"
+    ],
+
+    "রাজবাড়ী": [
+      "বালিয়াকান্দি",
+      "গোয়ালন্দ",
+      "কালুখালী",
+      "পাংশা",
+      "রাজবাড়ী সদর"
+    ],
+
+    "শরীয়তপুর": [
+      "ভেদরগঞ্জ",
+      "ডামুড্যা",
+      "গোসাইরহাট",
+      "জাজিরা",
+      "নড়িয়া",
+      "শরীয়তপুর সদর"
+    ],
+
+    "টাঙ্গাইল": [
+      "বাসাইল",
+      "ভূঞাপুর",
+      "দেলদুয়ার",
+      "ধনবাড়ী",
+      "ঘাটাইল",
+      "গোপালপুর",
+      "কালিহাতী",
+      "মধুপুর",
+      "মির্জাপুর",
+      "নাগরপুর",
+      "সখীপুর",
+      "টাঙ্গাইল সদর"
+    ]
+
+  },
+
+
+  "চট্টগ্রাম": {
+
+    "বান্দরবান": [
+      "আলীকদম",
+      "বান্দরবান সদর",
+      "লামা",
+      "নাইক্ষ্যংছড়ি",
+      "রোয়াংছড়ি",
+      "রুমা",
+      "থানচি"
+    ],
+
+    "ব্রাহ্মণবাড়িয়া": [
+      "আখাউড়া",
+      "আশুগঞ্জ",
+      "বাঞ্ছারামপুর",
+      "ব্রাহ্মণবাড়িয়া সদর",
+      "কসবা",
+      "নবীনগর",
+      "নাসিরনগর",
+      "সরাইল",
+      "বিজয়নগর"
+    ],
+
+    "চাঁদপুর": [
+      "চাঁদপুর সদর",
+      "ফরিদগঞ্জ",
+      "হাইমচর",
+      "হাজীগঞ্জ",
+      "কচুয়া",
+      "মতলব উত্তর",
+      "মতলব দক্ষিণ",
+      "শাহরাস্তি"
+    ],
+
+    "চট্টগ্রাম": [
+      "আনোয়ারা",
+      "বাঁশখালী",
+      "বোয়ালখালী",
+      "চন্দনাইশ",
+      "ফটিকছড়ি",
+      "হাটহাজারী",
+      "লোহাগাড়া",
+      "মীরসরাই",
+      "পটিয়া",
+      "রাঙ্গুনিয়া",
+      "রাউজান",
+      "সন্দ্বীপ",
+      "সাতকানিয়া",
+      "সীতাকুণ্ড",
+      "কর্ণফুলী"
+    ],
+
+    "কুমিল্লা": [
+      "বরুড়া",
+      "ব্রাহ্মণপাড়া",
+      "বুড়িচং",
+      "চান্দিনা",
+      "চৌদ্দগ্রাম",
+      "দাউদকান্দি",
+      "দেবিদ্বার",
+      "হোমনা",
+      "কুমিল্লা সদর",
+      "লাকসাম",
+      "লালমাই",
+      "মনোহরগঞ্জ",
+      "মেঘনা",
+      "মুরাদনগর",
+      "নাঙ্গলকোট",
+      "তিতাস"
+    ],
+
+    "কক্সবাজার": [
+      "চকরিয়া",
+      "কক্সবাজার সদর",
+      "কুতুবদিয়া",
+      "মহেশখালী",
+      "পেকুয়া",
+      "রামু",
+      "টেকনাফ",
+      "উখিয়া"
+    ],
+
+    "ফেনী": [
+      "ছাগলনাইয়া",
+      "দাগনভূঞা",
+      "ফেনী সদর",
+      "ফুলগাজী",
+      "পরশুরাম",
+      "সোনাগাজী"
+    ],
+
+    "খাগড়াছড়ি": [
+      "দীঘিনালা",
+      "খাগড়াছড়ি সদর",
+      "লক্ষ্মীছড়ি",
+      "মহালছড়ি",
+      "মানিকছড়ি",
+      "মাটিরাঙ্গা",
+      "পানছড়ি",
+      "রামগড়"
+    ],
+
+    "লক্ষ্মীপুর": [
+      "কমলনগর",
+      "লক্ষ্মীপুর সদর",
+      "রামগঞ্জ",
+      "রামগতি",
+      "রায়পুর"
+    ],
+
+    "নোয়াখালী": [
+      "বেগমগঞ্জ",
+      "চাটখিল",
+      "কোম্পানীগঞ্জ",
+      "হাতিয়া",
+      "কবিরহাট",
+      "সেনবাগ",
+      "সোনাইমুড়ী",
+      "সুবর্ণচর",
+      "নোয়াখালী সদর"
+    ],
+
+    "রাঙ্গামাটি": [
+      "বাঘাইছড়ি",
+      "বরকল",
+      "বিলাইছড়ি",
+      "জুরাছড়ি",
+      "কাপ্তাই",
+      "কাউখালী",
+      "লংগদু",
+      "নানিয়ারচর",
+      "রাজস্থলী",
+      "রাঙ্গামাটি সদর"
+    ]
+
+  },
+
+
+  "রাজশাহী": {
+
+    "বগুড়া": [
+      "আদমদীঘি",
+      "বগুড়া সদর",
+      "ধুনট",
+      "দুপচাঁচিয়া",
+      "গাবতলী",
+      "কাহালু",
+      "নন্দীগ্রাম",
+      "সারিয়াকান্দি",
+      "শাজাহানপুর",
+      "শেরপুর",
+      "শিবগঞ্জ",
+      "সোনাতলা"
+    ],
+
+    "জয়পুরহাট": [
+      "আক্কেলপুর",
+      "জয়পুরহাট সদর",
+      "কালাই",
+      "খেতলাল",
+      "পাঁচবিবি"
+    ],
+
+    "নওগাঁ": [
+      "আত্রাই",
+      "বদলগাছী",
+      "ধামইরহাট",
+      "মান্দা",
+      "মহাদেবপুর",
+      "নওগাঁ সদর",
+      "নিয়ামতপুর",
+      "পত্নীতলা",
+      "পোরশা",
+      "রাণীনগর",
+      "সাপাহার"
+    ],
+
+    "নাটোর": [
+      "বাগাতিপাড়া",
+      "বড়াইগ্রাম",
+      "গুরুদাসপুর",
+      "লালপুর",
+      "নাটোর সদর",
+      "সিংড়া",
+      "নলডাঙ্গা"
+    ],
+
+    "চাঁপাইনবাবগঞ্জ": [
+      "ভোলাহাট",
+      "গোমস্তাপুর",
+      "নাচোল",
+      "চাঁপাইনবাবগঞ্জ সদর",
+      "শিবগঞ্জ"
+    ],
+
+    "পাবনা": [
+      "আটঘরিয়া",
+      "বেড়া",
+      "ভাঙ্গুড়া",
+      "চাটমোহর",
+      "ঈশ্বরদী",
+      "পাবনা সদর",
+      "সাঁথিয়া",
+      "সুজানগর",
+      "ফরিদপুর"
+    ],
+
+    "রাজশাহী": [
+      "বাঘা",
+      "বাগমারা",
+      "চারঘাট",
+      "দুর্গাপুর",
+      "গোদাগাড়ী",
+      "মোহনপুর",
+      "পবা",
+      "পুঠিয়া",
+      "তানোর"
+    ],
+
+    "সিরাজগঞ্জ": [
+      "বেলকুচি",
+      "চৌহালী",
+      "কামারখন্দ",
+      "কাজীপুর",
+      "রায়গঞ্জ",
+      "শাহজাদপুর",
+      "সিরাজগঞ্জ সদর",
+      "তাড়াশ",
+      "উল্লাপাড়া"
+    ]
+
+  },
+
+
+  "খুলনা": {
+
+    "বাগেরহাট": [
+      "বাগেরহাট সদর",
+      "চিতলমারী",
+      "ফকিরহাট",
+      "কচুয়া",
+      "মোল্লাহাট",
+      "মোংলা",
+      "মোড়েলগঞ্জ",
+      "রামপাল",
+      "শরণখোলা"
+    ],
+
+    "চুয়াডাঙ্গা": [
+      "আলমডাঙ্গা",
+      "চুয়াডাঙ্গা সদর",
+      "দামুড়হুদা",
+      "জীবননগর"
+    ],
+
+    "যশোর": [
+      "অভয়নগর",
+      "বাঘারপাড়া",
+      "চৌগাছা",
+      "ঝিকরগাছা",
+      "কেশবপুর",
+      "মণিরামপুর",
+      "শার্শা",
+      "যশোর সদর"
+    ],
+
+    "ঝিনাইদহ": [
+      "ঝিনাইদহ সদর",
+      "কালীগঞ্জ",
+      "কোটচাঁদপুর",
+      "মহেশপুর",
+      "শৈলকুপা",
+      "হরিণাকুণ্ডু"
+    ],
+
+    "খুলনা": [
+      "বটিয়াঘাটা",
+      "ডাকোপ",
+      "দিঘলিয়া",
+      "দাকোপ",
+      "কয়রা",
+      "পাইকগাছা",
+      "ফুলতলা",
+      "রূপসা",
+      "তেরখাদা",
+      "খুলনা সদর"
+    ],
+
+    "কুষ্টিয়া": [
+      "ভেড়ামারা",
+      "দৌলতপুর",
+      "খোকসা",
+      "কুমারখালী",
+      "কুষ্টিয়া সদর",
+      "মিরপুর"
+    ],
+
+    "মাগুরা": [
+      "মাগুরা সদর",
+      "মহম্মদপুর",
+      "শালিখা",
+      "শ্রীপুর"
+    ],
+
+    "মেহেরপুর": [
+      "গাংনী",
+      "মুজিবনগর",
+      "মেহেরপুর সদর"
+    ],
+
+    "নড়াইল": [
+      "কালিয়া",
+      "লোহাগড়া",
+      "নড়াইল সদর"
+    ],
+
+    "সাতক্ষীরা": [
+      "আশাশুনি",
+      "দেবহাটা",
+      "কলারোয়া",
+      "কালীগঞ্জ",
+      "সাতক্ষীরা সদর",
+      "শ্যামনগর",
+      "তালা"
+    ]
+
+  },
+
+
+  "বরিশাল": {
+
+    "বরগুনা": [
+      "আমতলী",
+      "বামনা",
+      "বরগুনা সদর",
+      "বেতাগী",
+      "পাথরঘাটা",
+      "তালতলী"
+    ],
+
+    "বরিশাল": [
+      "আগৈলঝাড়া",
+      "বাবুগঞ্জ",
+      "বাকেরগঞ্জ",
+      "বানারীপাড়া",
+      "বরিশাল সদর",
+      "গৌরনদী",
+      "হিজলা",
+      "মেহেন্দিগঞ্জ",
+      "মুলাদী",
+      "উজিরপুর"
+    ],
+
+    "ভোলা": [
+      "ভোলা সদর",
+      "বোরহানউদ্দিন",
+      "চরফ্যাশন",
+      "দৌলতখান",
+      "লালমোহন",
+      "মনপুরা",
+      "তজুমদ্দিন"
+    ],
+
+    "ঝালকাঠি": [
+      "ঝালকাঠি সদর",
+      "কাঁঠালিয়া",
+      "নলছিটি",
+      "রাজাপুর"
+    ],
+
+    "পটুয়াখালী": [
+      "বাউফল",
+      "দশমিনা",
+      "দুমকি",
+      "কলাপাড়া",
+      "মির্জাগঞ্জ",
+      "পটুয়াখালী সদর",
+      "রাঙ্গাবালী",
+      "গলাচিপা"
+    ],
+
+    "পিরোজপুর": [
+      "ভান্ডারিয়া",
+      "কাউখালী",
+      "মঠবাড়িয়া",
+      "নাজিরপুর",
+      "নেছারাবাদ",
+      "পিরোজপুর সদর",
+      "ইন্দুরকানী"
+    ]
+
+  },
+
+
+  "সিলেট": {
+
+    "হবিগঞ্জ": [
+      "আজমিরীগঞ্জ",
+      "বাহুবল",
+      "বানিয়াচং",
+      "চুনারুঘাট",
+      "হবিগঞ্জ সদর",
+      "লাখাই",
+      "মাধবপুর",
+      "নবীগঞ্জ",
+      "শায়েস্তাগঞ্জ"
+    ],
+
+    "মৌলভীবাজার": [
+      "বড়লেখা",
+      "জুড়ী",
+      "কমলগঞ্জ",
+      "কুলাউড়া",
+      "মৌলভীবাজার সদর",
+      "রাজনগর",
+      "শ্রীমঙ্গল"
+    ],
+
+    "সুনামগঞ্জ": [
+      "বিশ্বম্ভরপুর",
+      "ছাতক",
+      "দিরাই",
+      "ধর্মপাশা",
+      "দোয়ারাবাজার",
+      "জামালগঞ্জ",
+      "জগন্নাথপুর",
+      "শাল্লা",
+      "শান্তিগঞ্জ",
+      "সুনামগঞ্জ সদর",
+      "তাহিরপুর"
+    ],
+
+    "সিলেট": [
+      "বালাগঞ্জ",
+      "বিয়ানীবাজার",
+      "বিশ্বনাথ",
+      "কোম্পানীগঞ্জ",
+      "দক্ষিণ সুরমা",
+      "ফেঞ্চুগঞ্জ",
+      "গোয়াইনঘাট",
+      "জৈন্তাপুর",
+      "কানাইঘাট",
+      "সিলেট সদর",
+      "জকিগঞ্জ",
+      "ওসমানীনগর"
+    ]
+
+  },
+
+
+  "রংপুর": {
+
+    "দিনাজপুর": [
+      "বীরগঞ্জ",
+      "বিরামপুর",
+      "বিরল",
+      "বোচাগঞ্জ",
+      "চিরিরবন্দর",
+      "দিনাজপুর সদর",
+      "ফুলবাড়ী",
+      "ঘোড়াঘাট",
+      "হাকিমপুর",
+      "কাহারোল",
+      "খানসামা",
+      "নবাবগঞ্জ",
+      "পার্বতীপুর"
+    ],
+
+    "গাইবান্ধা": [
+      "ফুলছড়ি",
+      "গাইবান্ধা সদর",
+      "গোবিন্দগঞ্জ",
+      "পলাশবাড়ী",
+      "সাদুল্লাপুর",
+      "সাঘাটা",
+      "সুন্দরগঞ্জ"
+    ],
+
+    "কুড়িগ্রাম": [
+      "ভুরুঙ্গামারী",
+      "চর রাজিবপুর",
+      "চিলমারী",
+      "ফুলবাড়ী",
+      "কুড়িগ্রাম সদর",
+      "নাগেশ্বরী",
+      "রাজারহাট",
+      "রৌমারী",
+      "উলিপুর"
+    ],
+
+    "লালমনিরহাট": [
+      "আদিতমারী",
+      "হাতীবান্ধা",
+      "কালীগঞ্জ",
+      "লালমনিরহাট সদর",
+      "পাটগ্রাম"
+    ],
+
+    "নীলফামারী": [
+      "ডিমলা",
+      "ডোমার",
+      "জলঢাকা",
+      "কিশোরগঞ্জ",
+      "নীলফামারী সদর",
+      "সৈয়দপুর"
+    ],
+
+    "পঞ্চগড়": [
+      "আটোয়ারী",
+      "বোদা",
+      "দেবীগঞ্জ",
+      "পঞ্চগড় সদর",
+      "তেঁতুলিয়া"
+    ],
+
+    "রংপুর": [
+      "বদরগঞ্জ",
+      "গংগাচড়া",
+      "কাউনিয়া",
+      "মিঠাপুকুর",
+      "পীরগাছা",
+      "পীরগঞ্জ",
+      "রংপুর সদর",
+      "তারাগঞ্জ"
+    ],
+
+    "ঠাকুরগাঁও": [
+      "বালিয়াডাঙ্গী",
+      "হরিপুর",
+      "পীরগঞ্জ",
+      "রাণীশংকৈল",
+      "ঠাকুরগাঁও সদর"
+    ]
+
+  },
+
+
+  "ময়মনসিংহ": {
+
+    "জামালপুর": [
+      "বকশীগঞ্জ",
+      "দেওয়ানগঞ্জ",
+      "ইসলামপুর",
+      "জামালপুর সদর",
+      "মাদারগঞ্জ",
+      "মেলান্দহ",
+      "সরিষাবাড়ী"
+    ],
+
+    "ময়মনসিংহ": [
+      "ভালুকা",
+      "ধোবাউড়া",
+      "ফুলবাড়ীয়া",
+      "গফরগাঁও",
+      "গৌরীপুর",
+      "হালুয়াঘাট",
+      "ঈশ্বরগঞ্জ",
+      "ময়মনসিংহ সদর",
+      "মুক্তাগাছা",
+      "নান্দাইল",
+      "ফুলপুর",
+      "তারাকান্দা",
+      "ত্রিশাল"
+    ],
+
+    "নেত্রকোণা": [
+      "আটপাড়া",
+      "বারহাট্টা",
+      "দুর্গাপুর",
+      "কলমাকান্দা",
+      "কেন্দুয়া",
+      "খালিয়াজুড়ি",
+      "মদন",
+      "মোহনগঞ্জ",
+      "নেত্রকোণা সদর",
+      "পূর্বধলা"
+    ],
+
+    "শেরপুর": [
+      "ঝিনাইগাতী",
+      "নকলা",
+      "নালিতাবাড়ী",
+      "শেরপুর সদর",
+      "শ্রীবরদী"
+    ]
+
+  }
+
+};
+
+
+/* =========================================================
+   POPULATE DIVISION
+========================================================= */
+
+const divisionSelect = $("division");
+const districtSelect = $("district");
+const upazilaSelect = $("upazila");
+
+Object.keys(BD_DATA).forEach(division => {
+
+  const option = document.createElement("option");
+
+  option.value = division;
+  option.textContent = division;
+
+  divisionSelect.appendChild(option);
+
+});
+
+
+/* =========================================================
+   DIVISION CHANGE
+========================================================= */
+
+divisionSelect.addEventListener("change", () => {
+
+  const division = divisionSelect.value;
+
+  districtSelect.innerHTML = "";
+  upazilaSelect.innerHTML = "";
+
+  upazilaSelect.disabled = true;
+
+  if(!division){
+
+    districtSelect.disabled = true;
+
+    districtSelect.innerHTML =
+      '<option value="">আগে বিভাগ নির্বাচন করুন</option>';
+
+    upazilaSelect.innerHTML =
+      '<option value="">আগে জেলা নির্বাচন করুন</option>';
+
+    return;
+  }
+
+  districtSelect.disabled = false;
+
+  districtSelect.innerHTML =
+    '<option value="">জেলা নির্বাচন করুন</option>';
+
+  Object.keys(BD_DATA[division]).forEach(district => {
+
+    const option = document.createElement("option");
+
+    option.value = district;
+    option.textContent = district;
+
+    districtSelect.appendChild(option);
+
+  });
+
+});
+
+
+/* =========================================================
+   DISTRICT CHANGE
+========================================================= */
+
+districtSelect.addEventListener("change", () => {
+
+  const division = divisionSelect.value;
+  const district = districtSelect.value;
+
+  upazilaSelect.innerHTML = "";
+
+  if(!district){
+
+    upazilaSelect.disabled = true;
+
+    upazilaSelect.innerHTML =
+      '<option value="">আগে জেলা নির্বাচন করুন</option>';
+
+    return;
+  }
+
+  upazilaSelect.disabled = false;
+
+  upazilaSelect.innerHTML =
+    '<option value="">থানা / উপজেলা নির্বাচন করুন</option>';
+
+  BD_DATA[division][district].forEach(upazila => {
+
+    const option = document.createElement("option");
+
+    option.value = upazila;
+    option.textContent = upazila;
+
+    upazilaSelect.appendChild(option);
+
+  });
+
+});
+
+
+/* =========================================================
+   BIRTH YEAR
+========================================================= */
+
+const currentYear = new Date().getFullYear();
+
+for(let year = currentYear; year >= 2000; year--){
+
+  const option = document.createElement("option");
+
+  option.value = year;
+  option.textContent = toBanglaNumber(year);
+
+  $("birthYear").appendChild(option);
+
+}
+
+
+/* =========================================================
+   BIRTH DAY
+========================================================= */
+
+function updateBirthDays(){
+
+  const year = parseInt($("birthYear").value);
+  const month = parseInt($("birthMonth").value);
+
+  $("birthDay").innerHTML =
+    '<option value="">তারিখ</option>';
+
+  if(!year || !month) return;
+
+  const daysInMonth = new Date(year, month, 0).getDate();
+
+  for(let day = 1; day <= daysInMonth; day++){
+
+    const option = document.createElement("option");
+
+    option.value = String(day).padStart(2,"0");
+    option.textContent = toBanglaNumber(day);
+
+    $("birthDay").appendChild(option);
+
+  }
+
+}
+
+$("birthYear").addEventListener("change", updateBirthDays);
+$("birthMonth").addEventListener("change", updateBirthDays);
+
+
+/* =========================================================
+   BANGLA NUMBER
+========================================================= */
+
+function toBanglaNumber(value){
+
+  return String(value)
+    .replace(/0/g,"০")
+    .replace(/1/g,"১")
+    .replace(/2/g,"২")
+    .replace(/3/g,"৩")
+    .replace(/4/g,"৪")
+    .replace(/5/g,"৫")
+    .replace(/6/g,"৬")
+    .replace(/7/g,"৭")
+    .replace(/8/g,"৮")
+    .replace(/9/g,"৯");
+
+}
+
+
+/* =========================================================
+   MONTH NAME
+========================================================= */
+
+const monthNames = {
+  "01":"জানুয়ারি",
+  "02":"ফেব্রুয়ারি",
+  "03":"মার্চ",
+  "04":"এপ্রিল",
+  "05":"মে",
+  "06":"জুন",
+  "07":"জুলাই",
+  "08":"আগস্ট",
+  "09":"সেপ্টেম্বর",
+  "10":"অক্টোবর",
+  "11":"নভেম্বর",
+  "12":"ডিসেম্বর"
+};
+
+
+/* =========================================================
+   STEP SYSTEM
+========================================================= */
+
+let currentStep = 1;
+
+function showStep(step){
+
+  currentStep = step;
+
+  document.querySelectorAll(".form-step").forEach(item => {
+
+    item.classList.remove("active");
+
+    if(Number(item.dataset.formStep) === step){
+      item.classList.add("active");
+    }
+
+  });
+
+  document.querySelectorAll(".step").forEach(item => {
+
+    const stepNumber = Number(item.dataset.step);
+
+    item.classList.remove("active","completed");
+
+    if(stepNumber === step){
+      item.classList.add("active");
+    }
+
+    if(stepNumber < step){
+      item.classList.add("completed");
+    }
+
+  });
+
+  const admission = $("admission");
+
+  window.scrollTo({
+    top: admission.offsetTop - 90,
+    behavior: "smooth"
+  });
+
+}
+
+
+function validateStep(step){
+
+  const required = {
+
+    1: [
+      ["studentName","শিক্ষার্থীর নাম"],
+      ["fatherName","পিতা/অভিভাবকের নাম"],
+      ["motherName","মাতার নাম"],
+      ["phone","মোবাইল নম্বর"],
+      ["gender","লিঙ্গ"],
+      ["birthYear","জন্ম সাল"],
+      ["birthMonth","জন্ম মাস"],
+      ["birthDay","জন্ম তারিখ"]
+    ],
+
+    2: [
+      ["division","বিভাগ"],
+      ["district","জেলা"],
+      ["upazila","থানা/উপজেলা"],
+      ["address","বিস্তারিত ঠিকানা"]
+    ],
+
+    3: [
+      ["program","ভর্তি বিভাগ"],
+      ["className","শ্রেণি"]
+    ],
+
+    4: [],
+
+    5: []
+
+  };
+
+  for(const item of required[step]){
+
+    const element = $(item[0]);
+
+    if(!element.value.trim()){
+
+      element.classList.add("error-field");
+
+      element.focus();
+
+      showToast(`দয়া করে ${item[1]} পূরণ করুন।`, "error");
+
+      setTimeout(() => {
+        element.classList.remove("error-field");
+      },2500);
+
+      return false;
+    }
+
+  }
+
+  if(step === 1){
+
+    if($("phone").value.trim().length < 10){
+
+      showToast("সঠিক মোবাইল নম্বর দিন।","error");
+
+      $("phone").focus();
+
+      return false;
+    }
+
+  }
+
+  return true;
+}
+
+
+/* NEXT */
+
+document.querySelectorAll(".next-btn").forEach(button => {
+
+  button.addEventListener("click", () => {
+
+    const nextStep = Number(button.dataset.next);
+
+    if(!validateStep(currentStep)) return;
+
+    if(nextStep === 5){
+      updateReview();
+    }
+
+    showStep(nextStep);
+
+  });
+
+});
+
+
+/* PREVIOUS */
+
+document.querySelectorAll(".prev-btn").forEach(button => {
+
+  button.addEventListener("click", () => {
+
+    showStep(Number(button.dataset.prev));
+
+  });
+
+});
+
+
+/* =========================================================
+   PHOTO PROCESSING
+========================================================= */
+
+let applicantPhotoData = "";
+
+$("photoInput").addEventListener("change", async function(){
+
+  const file = this.files[0];
+
+  if(!file) return;
+
+  if(!file.type.startsWith("image/")){
+
+    showToast("দয়া করে একটি ছবি নির্বাচন করুন।","error");
+
+    return;
+  }
+
+  $("photoStatus").textContent =
+    "ছবি প্রস্তুত করা হচ্ছে...";
+
+  try{
+
+    const dataUrl = await readFileAsDataURL(file);
+
+    const img = new Image();
+
+    img.onload = function(){
+
+      const canvas = document.createElement("canvas");
+
+      canvas.width = 300;
+      canvas.height = 300;
+
+      const ctx = canvas.getContext("2d");
+
+      const sourceSize = Math.min(img.width,img.height);
+
+      const sx = (img.width - sourceSize) / 2;
+      const sy = (img.height - sourceSize) / 2;
+
+      ctx.drawImage(
+        img,
+        sx,
+        sy,
+        sourceSize,
+        sourceSize,
+        0,
+        0,
+        300,
+        300
+      );
+
+      applicantPhotoData =
+        canvas.toDataURL("image/jpeg",0.92);
+
+      $("photoPreview").innerHTML =
+        `<img src="${applicantPhotoData}" alt="ছবি">`;
+
+      $("photoStatus").textContent =
+        "✓ ছবি সফলভাবে প্রস্তুত হয়েছে — 300 × 300 px";
+
+      showToast("ছবি সফলভাবে যুক্ত হয়েছে।","success");
+
+    };
+
+    img.onerror = function(){
+
+      showToast("ছবিটি পড়া যায়নি। অন্য ছবি দিন।","error");
+
+    };
+
+    img.src = dataUrl;
+
+  }catch(error){
+
+    console.error(error);
+
+    showToast("ছবি প্রস্তুত করতে সমস্যা হয়েছে।","error");
+
+  }
+
+});
+
+
+function readFileAsDataURL(file){
+
+  return new Promise((resolve,reject) => {
+
+    const reader = new FileReader();
+
+    reader.onload = () => resolve(reader.result);
+
+    reader.onerror = reject;
+
+    reader.readAsDataURL(file);
+
+  });
+
+}
+
+
+/* =========================================================
+   REVIEW
+========================================================= */
+
+function getBirthDate(){
+
+  const year = $("birthYear").value;
+  const month = $("birthMonth").value;
+  const day = $("birthDay").value;
+
+  if(!year || !month || !day) return "—";
+
+  return `${toBanglaNumber(day)} ${monthNames[month]} ${toBanglaNumber(year)}`;
+
+}
+
+
+function updateReview(){
+
+  $("reviewStudentName").textContent =
+    $("studentName").value || "—";
+
+  $("reviewFatherName").textContent =
+    $("fatherName").value || "—";
+
+  $("reviewMotherName").textContent =
+    $("motherName").value || "—";
+
+  $("reviewPhone").textContent =
+    $("phone").value || "—";
+
+  $("reviewBirthDate").textContent =
+    getBirthDate();
+
+  $("reviewGender").textContent =
+    $("gender").value || "—";
+
+  $("reviewDivision").textContent =
+    $("division").value || "—";
+
+  $("reviewDistrict").textContent =
+    $("district").value || "—";
+
+  $("reviewUpazila").textContent =
+    $("upazila").value || "—";
+
+  $("reviewProgram").textContent =
+    $("program").value || "—";
+
+  $("reviewClass").textContent =
+    $("className").value || "—";
+
+  $("reviewAddress").textContent =
+    $("address").value || "—";
+
+  if(applicantPhotoData){
+
+    $("reviewPhoto").src = applicantPhotoData;
+
+  }else{
+
+    $("reviewPhoto").removeAttribute("src");
+
+  }
+
+}
+
+
+/* =========================================================
+   APPLICATION ID
+========================================================= */
+
+function generateApplicationId(){
+
+  const now = new Date();
+
+  const date =
+    now.getFullYear().toString() +
+    String(now.getMonth()+1).padStart(2,"0") +
+    String(now.getDate()).padStart(2,"0");
+
+  const random =
+    Math.floor(1000 + Math.random()*9000);
+
+  return `ADM-${date}-${random}`;
+
+}
+
+
+/* =========================================================
+   DATE FORMAT
+========================================================= */
+
+function formatToday(){
+
+  const now = new Date();
+
+  const day = toBanglaNumber(
+    String(now.getDate()).padStart(2,"0")
+  );
+
+  const month = [
+    "জানুয়ারি",
+    "ফেব্রুয়ারি",
+    "মার্চ",
+    "এপ্রিল",
+    "মে",
+    "জুন",
+    "জুলাই",
+    "আগস্ট",
+    "সেপ্টেম্বর",
+    "অক্টোবর",
+    "নভেম্বর",
+    "ডিসেম্বর"
+  ][now.getMonth()];
+
+  const year = toBanglaNumber(now.getFullYear());
+
+  return `${day} ${month} ${year}`;
+
+}
+
+
+/* =========================================================
+   SUBMIT APPLICATION
+========================================================= */
+
+$("admissionForm").addEventListener("submit", function(event){
+
+  event.preventDefault();
+
+  if(!validateStep(1) ||
+     !validateStep(2) ||
+     !validateStep(3)){
+
+    return;
+  }
+
+  if(!$("declaration").checked){
+
+    showToast("আবেদন Submit করার আগে ঘোষণা গ্রহণ করুন।","error");
+
+    return;
+  }
+
+
+  const applicationId = generateApplicationId();
+  const submitDate = formatToday();
+
+
+  /* Fill PDF/Application */
+
+  $("applicationIdDisplay").textContent =
+    applicationId;
+
+  $("paperApplicationId").textContent =
+    applicationId;
+
+  $("paperSubmitDate").textContent =
+    submitDate;
+
+
+  $("paperStudentName").textContent =
+    $("studentName").value;
+
+  $("paperFatherName").textContent =
+    $("fatherName").value;
+
+  $("paperMotherName").textContent =
+    $("motherName").value;
+
+  $("paperPhone").textContent =
+    $("phone").value;
+
+  $("paperBirthDate").textContent =
+    getBirthDate();
+
+  $("paperGender").textContent =
+    $("gender").value;
+
+  $("paperDivision").textContent =
+    $("division").value;
+
+  $("paperDistrict").textContent =
+    $("district").value;
+
+  $("paperUpazila").textContent =
+    $("upazila").value;
+
+  $("paperAddress").textContent =
+    $("address").value;
+
+  $("paperProgram").textContent =
+    $("program").value;
+
+  $("paperClass").textContent =
+    $("className").value;
+
+  $("paperPreviousSchool").textContent =
+    $("previousSchool").value || "প্রযোজ্য নয়";
+
+  $("paperNotes").textContent =
+    $("notes").value || "কোনো অতিরিক্ত তথ্য নেই";
+
+
+  if(applicantPhotoData){
+
+    $("paperPhoto").src =
+      applicantPhotoData;
+
+  }
+
+
+  /* Save current application */
+
+  localStorage.setItem(
+    "lastApplicationId",
+    applicationId
+  );
+
+
+  /* Show result */
+
+  $("applicationResult").classList.add("show");
+
+  setTimeout(() => {
+
+    $("applicationResult").scrollIntoView({
+      behavior:"smooth",
+      block:"start"
+    });
+
+  },100);
+
+
+  showToast(
+    "আবেদন সফলভাবে তৈরি হয়েছে। এখন PDF Download করুন।",
+    "success"
+  );
+
+});
+
+
+/* =========================================================
+   PDF DOWNLOAD
+========================================================= */
+
+$("downloadPdfBtn").addEventListener("click", async function(){
+
+  const element = $("admissionPrintArea");
+
+  if(!element){
+
+    showToast("আবেদনপত্র পাওয়া যায়নি।","error");
+
+    return;
+  }
+
+
+  const originalText = this.innerHTML;
+
+  this.disabled = true;
+
+  this.innerHTML = "⏳ PDF তৈরি হচ্ছে...";
+
+
+  /*
+    IMPORTANT:
+    element is visible here.
+    display:none is NOT used.
+  */
+
+  try{
+
+    await new Promise(resolve => setTimeout(resolve,500));
+
+
+    const canvas = await html2canvas(element,{
+
+      scale: 2,
+
+      useCORS: true,
+
+      allowTaint: true,
+
+      backgroundColor: "#ffffff",
+
+      imageTimeout: 30000,
+
+      logging: false,
+
+      scrollX: 0,
+
+      scrollY: -window.scrollY
+
+    });
+
+
+    const imgData =
+      canvas.toDataURL("image/jpeg",0.98);
+
+
+    const { jsPDF } = window.jspdf;
+
+    const pdf = new jsPDF({
+
+      orientation:"portrait",
+
+      unit:"mm",
+
+      format:"a4",
+
+      compress:true
+
+    });
+
+
+    const pageWidth = 210;
+    const pageHeight = 297;
+
+    const imageWidth = pageWidth;
+
+    const imageHeight =
+      canvas.height * imageWidth / canvas.width;
+
+
+    /*
+      A4 application is kept on one page.
+    */
+
+    let height = imageHeight;
+
+    if(height > pageHeight){
+
+      height = pageHeight;
+
+    }
+
+
+    pdf.addImage(
+
+      imgData,
+
+      "JPEG",
+
+      0,
+
+      0,
+
+      imageWidth,
+
+      height,
+
+      undefined,
+
+      "FAST"
+
+    );
+
+
+    const appId =
+      $("applicationIdDisplay").textContent.trim();
+
+
+    pdf.save(`${appId}.pdf`);
+
+
+    showToast(
+      "PDF সফলভাবে Download হয়েছে।",
+      "success"
+    );
+
+
+  }catch(error){
+
+    console.error("PDF ERROR:",error);
+
+    showToast(
+      "PDF তৈরি করতে সমস্যা হয়েছে। আবার চেষ্টা করুন।",
+      "error"
+    );
+
+  }finally{
+
+    this.disabled = false;
+
+    this.innerHTML = originalText;
+
+  }
+
+});
+
+
+/* =========================================================
+   PRINT APPLICATION
+========================================================= */
+
+$("printAdmissionBtn").addEventListener("click", () => {
+
+  document.body.classList.add("printing-admission");
+
+  window.print();
+
+});
+
+
+/* =========================================================
+   AFTER PRINT
+========================================================= */
+
+window.addEventListener("afterprint", () => {
+
+  document.body.classList.remove("printing-admission");
+  document.body.classList.remove("printing-receipt");
+
+});
+
+
+/* =========================================================
+   NEW APPLICATION
+========================================================= */
+
+$("newApplicationBtn").addEventListener("click", () => {
+
+  $("admissionForm").reset();
+
+  applicantPhotoData = "";
+
+  $("photoPreview").innerHTML =
+    "<span>ছবি</span>";
+
+  $("photoStatus").textContent =
+    "এখনো কোনো ছবি নির্বাচন করা হয়নি।";
+
+  $("district").disabled = true;
+
+  $("upazila").disabled = true;
+
+  $("district").innerHTML =
+    '<option value="">আগে বিভাগ নির্বাচন করুন</option>';
+
+  $("upazila").innerHTML =
+    '<option value="">আগে জেলা নির্বাচন করুন</option>';
+
+  $("applicationResult").classList.remove("show");
+
+  showStep(1);
+
+  window.scrollTo({
+    top:$("admission").offsetTop - 90,
+    behavior:"smooth"
+  });
+
+});
+
+
+/* =========================================================
+   PAYMENT RECEIPT
+========================================================= */
+
+function generateReceiptNumber(){
+
+  const now = new Date();
+
+  const date =
+    now.getFullYear().toString() +
+    String(now.getMonth()+1).padStart(2,"0") +
+    String(now.getDate()).padStart(2,"0");
+
+  const random =
+    Math.floor(1000 + Math.random()*9000);
+
+  return `PAY-${date}-${random}`;
+
+}
+
+
+$("generateReceiptBtn").addEventListener("click", () => {
+
+  const student =
+    $("paymentStudent").value.trim();
+
+  const transaction =
+    $("transactionId").value.trim();
+
+  if(!student){
+
+    showToast(
+      "শিক্ষার্থীর নাম দিন।",
+      "error"
+    );
+
+    $("paymentStudent").focus();
+
+    return;
+  }
+
+  if(!transaction){
+
+    showToast(
+      "Transaction ID দিন।",
+      "error"
+    );
+
+    $("transactionId").focus();
+
+    return;
+  }
+
+
+  const receiptNumber =
+    generateReceiptNumber();
+
+  const date =
+    formatToday();
+
+  const month =
+    $("paymentMonth").value || "—";
+
+  const roll =
+    $("paymentRoll").value || "—";
+
+  const payerPhone =
+    $("paymentPhone").value || "—";
+
+
+  /* Madrasa */
+
+  $("madrasaReceiptNo").textContent =
+    receiptNumber;
+
+  $("madrasaStudent").textContent =
+    student;
+
+  $("madrasaMonth").textContent =
+    month;
+
+  $("madrasaRoll").textContent =
+    roll;
+
+  $("madrasaTransaction").textContent =
+    transaction;
+
+  $("madrasaPayerPhone").textContent =
+    payerPhone;
+
+  $("madrasaDate").textContent =
+    date;
+
+
+  /* Student */
+
+  $("studentReceiptNo").textContent =
+    receiptNumber;
+
+  $("studentCopyName").textContent =
+    student;
+
+  $("studentCopyMonth").textContent =
+    month;
+
+  $("studentCopyRoll").textContent =
+    roll;
+
+  $("studentCopyTransaction").textContent =
+    transaction;
+
+  $("studentCopyPhone").textContent =
+    payerPhone;
+
+  $("studentCopyDate").textContent =
+    date;
+
+
+  $("receiptNumberDisplay").textContent =
+    receiptNumber;
+
+
+  $("receiptResult").classList.add("show");
+
+
+  setTimeout(() => {
+
+    $("receiptResult").scrollIntoView({
+      behavior:"smooth",
+      block:"start"
+    });
+
+  },100);
+
+
+  showToast(
+    "দুই কপির পেমেন্ট রসিদ তৈরি হয়েছে।",
+    "success"
+  );
+
+});
+
+
+/* =========================================================
+   PRINT RECEIPT
+========================================================= */
+
+$("printReceiptBtn").addEventListener("click", () => {
+
+  document.body.classList.add("printing-receipt");
+
+  window.print();
+
+});
+
+
+/* =========================================================
+   NEW RECEIPT
+========================================================= */
+
+$("newReceiptBtn").addEventListener("click", () => {
+
+  $("paymentStudent").value = "";
+  $("paymentRoll").value = "";
+  $("paymentPhone").value = "";
+  $("paymentMonth").value = "";
+  $("transactionId").value = "";
+
+  $("receiptResult").classList.remove("show");
+
+  document.querySelector("#payment").scrollIntoView({
+    behavior:"smooth"
+  });
+
+});
+
+
+/* =========================================================
+   TOAST
+========================================================= */
+
+function showToast(message,type="success"){
+
+  const toast = $("toast");
+
+  toast.textContent = message;
+
+  toast.className =
+    "toast show " + type;
+
+  clearTimeout(window.toastTimer);
+
+  window.toastTimer = setTimeout(() => {
+
+    toast.classList.remove("show");
+
+  },3500);
+
+}
+
+
+/* =========================================================
+   REMOVE ERROR ON INPUT
+========================================================= */
+
+document.querySelectorAll("input,select,textarea").forEach(element => {
+
+  element.addEventListener("input", () => {
+
+    element.classList.remove("error-field");
+
+  });
+
+  element.addEventListener("change", () => {
+
+    element.classList.remove("error-field");
+
+  });
+
+});
+
+</script>
+
+</body>
+</html>
